@@ -87,8 +87,13 @@ border:none;
 .laatikko{
   float:left;
   width:33.3%;  
-  border:2px solid black;
+  border:2px solid brown;
   padding:10px;
   box-sizing: border-box;
   margin-top:25px;
+}
+.asemointi{
+  position:fixed;
+  top:100px;
+  left:0px;
 }
