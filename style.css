@@ -15,7 +15,56 @@ body{
 }
 .sisalto1{
   background-color:burlywood;
+      padding:10px;
+  border-style:dotted;
+  border-right-color:black;
+  border-left-style:double;
+  border-top-style:solid;
+  border-left-color:blueviolet;
+}
+.sisalto1 h1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration:underline;
+  text-transform:uppercase;
+  letter-spacing:0.5em;
+  word-spacing:1em;
+
 }
 .alue1{
-  width:700px;
+  width:70%;
+  /*
+  margin-top:25px;
+  margin-bottom:25px;
+  margin-left:15px;
+  margin-right:15px;
+  */
+ /* margin:25px 15px;*/
+    margin:auto;
+    
+}
+.linkkilista{
+  margin-top: 10px;
+  border:1px blanchedalmond solid;
+  padding:20px;
+  border-radius:2000px;
+}
+.linkkilista{
+  text-align:center;
+  color:peachpuff;
+}
+.linkkilista ul{
+  list-style-type:none;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  color:greenyellow;
+}
+a:active{
+  color:hsla(hue, saturation, lightness, alpha);
+}
+.linkkilista li{
+  border-bottom:dotted 1px hotpink;
 }
