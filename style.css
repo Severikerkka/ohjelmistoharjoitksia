@@ -68,3 +68,20 @@ a:active{
 .linkkilista li{
   border-bottom:dotted 1px hotpink;
 }
+.yhteydenotto label{
+  display:block;
+}
+.yhteydenotto input[type="text"], .yhteydenotto textarea{
+  padding:10px;
+  width:100%;
+}
+.nappula{
+background-color: black;
+color:white;
+padding: 10px;
+border: none;
+}
+.nappula:hover{
+background-color:peru;
+border:none;
+}
