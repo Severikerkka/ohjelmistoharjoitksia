@@ -40,7 +40,6 @@ body{
   */
  /* margin:25px 15px;*/
     margin:auto;
-    
 }
 .linkkilista{
   margin-top: 10px;
@@ -84,4 +83,12 @@ border: none;
 .nappula:hover{
 background-color:peru;
 border:none;
+}
+.laatikko{
+  float:left;
+  width:33.3%;  
+  border:2px solid black;
+  padding:10px;
+  box-sizing: border-box;
+  margin-top:25px;
 }
