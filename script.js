@@ -40,9 +40,52 @@ console.log(henkilotieto.substring(0, 9).toUpperCase());
 console.log(henkilotieto.split("")[2]);
 
 const autoja = [`Hyndai`, `Toyota`, `volvo`,];
-autoja[3]=`BMW`
+
+autoja[3]=`BMW`;
+
+autoja.push(`Saab`);
+
+autoja.unshift(`Mersu`);
+
+autoja.pop();
 
 console.log(autoja);
 
+const opiskelija = {
+  id: 1,
+  etunimi: 'Severi',
+    sukunimi: 'kerkkä',
+  synymavuosi: '2004',
+    koulutus: 'insinööri',
+      osoite: {
+     alue: 'kaikkialla',
+      kunta: 'lahti'
+      }
+}
+const laksyt = [
+{
+id:1,
+tehtava: 'Ohjelmointi, HTNL',
+tehty: true
+},
+{
+id:2,
+tehtava: 'Ohjelmointi, css',
+tehty: true
+},
+{
+id:3,
+tehtava: 'Ohjelmointi, java',
+tehty: false
+}
+];
 
+for (let i=0; i <= 10; i++){
+  console.log(`iteraatioluku on: ${i}`);
+}
 
+let i = 0;
+while(i<=10){
+  console.log(`while loopin iteraatioluku on: ${i}`);
+i++;
+}
