@@ -81,7 +81,7 @@ tehty: false
 ];
 
 for (let i=0; i <= 10; i++){
-  console.log(`iteraatioluku on: ${i}`);
+  console.log(`for loopin iteraatioluku on: ${i}`);
 }
 
 let i = 0;
@@ -89,3 +89,15 @@ while(i<=10){
   console.log(`while loopin iteraatioluku on: ${i}`);
 i++;
 }
+
+for (let i=0; i <laksyt.length; i++){
+  console.log(laksyt[i].tehtava);
+}
+const laksyTehtava = laksyt.map(function(laksy){
+  console.log(laksy.tehtava);
+
+  return laksy.tehtava
+});
+  console.log(laksyTehtava);
+
+
