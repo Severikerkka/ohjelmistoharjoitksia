@@ -22,21 +22,25 @@ console.log(k4.split(" ")[0]);
 
 
 const perhe = [ 
-    {name: "Severi", ikä: "16", täysiikäinen:false}, 
-    {name: "Antti", ikä: "19", täysiikäinen:true}, 
-    {name: "Julius", ikä: "7", täysiikäinen:false}, 
-    {name: "Karita", ikä: "44", täysiikäinen:true}, 
-    {name: "Teppo", ikä: "54", täysiikäinen:true} 
+    {name: "Severi", ika: "16", taysiikainen:false}, 
+    {name: "Antti", ika: "19", taysiikainen:true}, 
+    {name: "Julius", ika: "7", taysiikainen:false}, 
+    {name: "Karita", ika: "44", taysiikainen:true}, 
+    {name: "Teppo", ika: "54", taysiikainen:true} 
 ]; 
-  
-var output =  perhe.filter(perhe => perhe.ikä >18); 
-for(var i=0;i<output.length;i++){ 
-}; 
-console.log(output);
-var outputt =  perhe.filter(perhe => perhe.ikä <18); 
-for(var i=0;i<output.length;i++){ 
-}; 
-console.log(outputt);
+const perheaik = perhe.filter(function(family){
+return family.taysiikainen === false;
+}).map(function(family){
+    return family.name});
+
+console.log(perheaik);
+
+const perhelaps = perhe.filter(function(family){
+return family.taysiikainen === true;
+}).map(function(family){
+    return family.name});
+
+console.log(perhelaps);
 
 
 
