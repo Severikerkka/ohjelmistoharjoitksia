@@ -2,7 +2,8 @@
 
 
 
-
+function laskutehtava(ekaNumero, tokaNumero){
+return(ekaNumero + tokaNumero);}
 /*Muuttujat: var let tai const*/
 
 let ika = 43;
@@ -100,4 +101,30 @@ const laksyTehtava = laksyt.map(function(laksy){
 });
   console.log(laksyTehtava);
 
+console.log('-----------------------------------------------------------')
+
+const tehtavaTehty = laksyt.filter(function(laksy){
+return laksy.tehty === false;
+}).map(function(laksy){
+    return laksy.tehtava});
+
+console.log(tehtavaTehty);
+
+const numero = 20;
+const nimi = 'Jorma';
+
+if(numero < 18 || nimi === 'Jorma'){
+  console.log('access denied or you are Jorma');
+  }else if(numero === 18){
+    console.log ('access granted');
+  }
+/*else{
+  console.log('access granted');
+}*/
+
+const access = numero > 18 ? 'granted' : 'denied';
+
+console.log(access);
+
+console.log(laskutehtava(1, 2));
 
