@@ -179,7 +179,7 @@ header{
   padding:8px;
   margin-bottom:10px;
   border-radius:5px;
-  vorder:1px double yellow;
+  border:1px double yellow;
 }
 .kurssinappi{
   display: block;
@@ -212,10 +212,15 @@ header{
   width:70%;
   margin:auto;
   background:purple;
+  
 }
 .virhe{
   background:black;
-  color:antiquewhite;
-  padding:10px;
+  color:yellowgreen;
   margin:10px;
+  text-align:center;
+  padding:10px;
 }
+
+
+
