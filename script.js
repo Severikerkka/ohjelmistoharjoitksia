@@ -152,7 +152,6 @@ if(nimisisalto.value === '' || asiasisalto === '' ){
   setTimeout(() => kurssinappistyle.background = rgb (44, 44,), 3000);
   setTimeout(() => kurssinappi.value = 'lisää tietoa', 3000)
 
-
   }else{
 
   const li = document.createElement('li');
