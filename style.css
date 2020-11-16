@@ -151,4 +151,71 @@ div.content {
   }
 }
 
-    
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+~
+*{
+  margin:0;
+  padding:0;
+}
+ul{
+  list-style:none;
+}
+ul li {
+  padding:5px;
+  background:hotpink;
+  margin:5px 0;
+}
+header{
+  background:rgb(110, 66, 8);
+  padding:10px;
+  text-align:center;
+}
+#opiskelija-lomake{
+  background:blue;
+  padding:15px;
+}
+#opiskelija-lomake input[type='text']{
+  width:100%;
+  padding:8px;
+  margin-bottom:10px;
+  border-radius:5px;
+  vorder:1px double yellow;
+}
+.kurssinappi{
+  display: block;
+  width:100%;
+  padding:10px 15px;
+  border:0;
+  background:green;
+  color:white;
+  border-radius:5px;
+  margin:5px 0;
+}
+.kurssinappi:hover{
+  background:red;
+}
+.merkinta{
+  display: block;
+  width:100%;
+  padding:10px 15px;
+  border:0;
+  background:black;
+  color:white;
+  border-radius:5px;
+  margin:5px 0;
+}
+.merkinta:hover{
+  background:rgb(115, 89, 230);
+}
+.lomake-alue{
+  padding:10px 15px;
+  width:70%;
+  margin:auto;
+  background:purple;
+}
+.virhe{
+  background:black;
+  color:antiquewhite;
+  padding:10px;
+  margin:10px;
+}

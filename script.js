@@ -128,3 +128,13 @@ console.log(access);
 
 console.log(laskutehtava(1, 2));
 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+const kurssinOsat = document.querySelectorAll('.sisalto');
+
+kurssinOsat.forEach((osa)=>console.log(osa));
+
+const ul = document.querySelector('.kurssi');
+const kurssinappi = document.querySelector('.kurssinappi');
+const nimisisalto = document.querySelector('#nimi');
+const asiaSisalto = document.querySelector('#tieto');
+const virhe = document.querySelector('.virheilmoitus');
