@@ -1,4 +1,3 @@
-
 const nimi=`Severi Kerkkä`; 
 const ikä=`16`; 
 const opiskelija=true; 

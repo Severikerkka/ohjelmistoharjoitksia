@@ -1,13 +1,38 @@
 <html>
-<head>
-  <title>javascript harjotus</title>
-</head>
-<body>
+  <head>
+        <link rel="stylesheet" type="text/css"
+        href="style.css">
+    <title>javascript harjotus</title>
+  </head>
+    <body>
+      <h1>Tieto- ja viestintärekniikan perustehtävät</h1>
+      <div class="lomake-alue>"
+        <formd id="opiskelija-lomake">
+          <h1>Lisää merkintä</h1>
+          <div class="virheilmoitus"></div>
+          <div>
+            <label>nimi:</label>
+            <input type="text" id="nimi">
+          </div>
+            <div>
+            <label>tieto:</label>
+            <input type="text" id="tieto">
+            <input class="kurssinappi" type="submit" value="lisää tieto">
+          </div>
+        </form>
+        <ul id"tiedot"></ul>
+        <h2>suoritettavat</h2>
+        <ul class="kurssi"></ul>
+          <li class="sisältö"><input type="checkbox" id="tehta">html</li>
+          <li class="sisältö"><input type="checkbox" id="tehtb">css</li>
+          <li class="sisältö"><input type="checkbox" id="tehtc">javascript</li>
+          <li class="sisältö"><input type="checkbox" id="tehtd">ci/cd</li>
+        </ul>
+        <input class="merkintä" type="submit" value="Merkkaa">
+
+      </div>
 
 
-
-
-
-<script src="script.js"></script>
-</body>
+   <script src="script.js"></script>
+    </body>
 </html>
