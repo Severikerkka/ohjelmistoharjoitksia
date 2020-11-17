@@ -6,7 +6,10 @@
          <div class="sisalto1">
     <form action="ty.html" method="post">
     <label>nimi</label>
-    <input type="text" nimi="nimi" required> <br><br>
+    <input type="text" nimi="nimi" required>
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <br><br>
     <label>email</label>
     <input type="email" email="sähköposti" required> <br><br>
     <label>ikä</label>
@@ -21,6 +24,30 @@
 
 }
 </div>
+<style> 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+</style>
+
+<style> 
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+</style>
+
+
+
 </form
 
 </script>
@@ -120,7 +147,6 @@ function closeNav() {
 }
 </script>
       <script src="scripti.js"></script>
-            <input class="kurssinappi" type="submit" value="lähetä">
 
 </body>
 
