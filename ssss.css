@@ -293,3 +293,11 @@ background-size: 1800% 1800%;
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
+
+.form-validation-error {
+
+border: 10px solid red !important;
+
+
+
+}

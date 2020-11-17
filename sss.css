@@ -257,3 +257,11 @@ header{
 
 
 
+
+.form-validation-error {
+
+border: 10px solid red !important;
+
+
+
+}
