@@ -11,18 +11,26 @@ function sendJSON(){
 
 xhr.open("POST", url, true);
 
-  xhr.setRequestHeader("Content-type", "application/json");
+xhr.setRequestHeader("Content-Type", "application/json");
 
-  xhr.onreadystatechange = function(){
-    if(xhr.readyState === 4 && xhr.status === 200){
-   console.log('yhteys toimii');
-    }
-   };
-  var data = JSON.stringify({
-    "EmailMsg" : "Posti", //kirjoittaa sähköpostin sisällön
-    "EmailAddress" : "severi.kerkkä@edu.salpaus.fi", //viestin kirjoittajan sähköpostin
-    "EmailTo" : "seve9191@gmail.com", //oma sähköposti
-    "EmailName" : "Teppo Tyyppi" //nimi-kentän sisältö
-  });
-  xhr.send(data);
+xhr.onreadystatechange = function(){
+  if(xhr.readyState === 4 && xhr.status === 200){
+    console.lo("yhteys toimii")
+   }
+
 }
+};
+var data = JSON.stringify({
+  "EmailMsg": "Tähän tulee postin sisältö", //kirjoittaa sähköpostin sisällön
+  "EmailAddress": "seve9191@gmail.com", //viestin kirjoittajan sähköposti
+  "EmailTo": "severi.kerkka@edu.salpaus.fi", //oma sähköposti
+  "EmailName": "Teppo Tyyppi" //nimi kentän sisältö
+  
+});
+  let xhr = new XMLHttpRequest();
+xhr.open("POST", true);
+
+
+xhr.send(data);
+
+xhr.open("POST", true);
